@@ -31,10 +31,10 @@ The implementation isn't finished yet. Here's the list of implemented features:
 
 * Installation of the OpenVPN client.
 * Installation of the OpenVPN configuration files provided by NordVPN.
+* Configuration of packet forwarding
 
 Here's the list of not yet implemented features:
 
 * Web interface to pick the VPN server to connect to
 * Recursive DNS resolver
 * Pi-Hole
-* Configuration of packet forwarding
