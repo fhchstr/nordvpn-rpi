@@ -2,3 +2,5 @@
 # NordVPN service credentials. See https://my.nordaccount.com/dashboard/nordvpn/
 nordvpn_username: CHANGEME
 nordvpn_password: CHANGEME
+# Set this to false if you want to keep existing iptable rules.
+purge_other_iptable_rules: true

@@ -2,7 +2,7 @@
 
 `nordvpn-rpi` sets up a Raspberry Pi as a VPN gateway using NordVPN servers. A NordVPN subscription is required. Go to https://nordvpn.com to create an account. The setup has been tested on a Raspberry Pi 3 Model B with 16 GB of storage. `nordvpn-rpi` uses [puppet](https://puppet.com) to configure the Raspberry Pi. Puppet is an open-source tool to automate the configuration of servers.
 
-To set up your Raspberry Pi using `nordvpn-rpi`, clone this repository on your Raspberry Pi, enter your NordVPN credentials in `config.yaml` and execute `setup.sh` as root. The installation takes a few minutes to complete.
+To set up your Raspberry Pi using `nordvpn-rpi`, clone this repository on your Raspberry Pi, edit `config.yaml` according to your needs and execute `setup.sh` as root. The installation takes a few minutes to complete.
 
 ```console
 git clone https://github.com/fhchstr/nordvpn-rpi
@@ -23,7 +23,7 @@ Installed packages:
 System configuration
 
 * Disable IPv6
-* iptables rules
+* iptable rules
 
 ## Features
 
