@@ -23,3 +23,8 @@ file {
   config_root      => $config_root,
   credentials_file => $credentials_file,
 }
+-> sysctl { 'net.ipv4.ip_forward':
+  prefix => '90',
+  value  => 1,
+}
+-> class { '::iptables': }

@@ -26,8 +26,15 @@ setup_puppet() {
 
     echo 'Installing puppet modules...'
     cd "${SCRIPT_PATH}/puppet/modules"
-    git clone https://github.com/thias/puppet-sysctl
+
+    git clone https://github.com/puppetlabs/puppetlabs-stdlib.git
+    mv puppetlabs-stdlib stdlib
+
+    git clone https://github.com/thias/puppet-sysctl.git
     mv puppet-sysctl sysctl
+
+    git clone https://github.com/puppetlabs/puppetlabs-firewall.git
+    mv puppetlabs-firewall firewall
 }
 
 apply_puppet() {
