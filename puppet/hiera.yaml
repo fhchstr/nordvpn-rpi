@@ -1,0 +1,10 @@
+---
+version: 5
+
+defaults:
+  datadir: .
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "config"
+    path: "../config.yaml"

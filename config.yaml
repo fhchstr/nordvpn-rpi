@@ -1,0 +1,4 @@
+---
+# NordVPN service credentials. See https://my.nordaccount.com/dashboard/nordvpn/
+nordvpn_username: CHANGEME
+nordvpn_password: CHANGEME
